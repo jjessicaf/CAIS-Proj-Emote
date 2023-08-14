@@ -1,4 +1,6 @@
-# Emote Recommender [[presentation](https://docs.google.com/presentation/d/1-vDMK1vmKV7w2So8sbAKd6_02oleM0RGWwuZ70pL-uc/edit?usp=sharing)]
+# Emote Recommender 
+
+[[presentation](https://docs.google.com/presentation/d/1-vDMK1vmKV7w2So8sbAKd6_02oleM0RGWwuZ70pL-uc/edit?usp=sharing)]
 
 ### Motivation
 
@@ -46,6 +48,6 @@
 
 ### Poster
 
-You can find out poster below, or at this [link](readme/"Emote recommender poster.pdf").
+You can find out poster below, or at this [link](readme/Emote_recommender_poster.pdf).
 
 ![poster](https://github.com/jjessicaf/CAIS-Proj-Emote/blob/main/readme/poster.jpg?raw=true)
