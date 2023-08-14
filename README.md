@@ -2,27 +2,27 @@
 
 [[presentation](https://docs.google.com/presentation/d/1-vDMK1vmKV7w2So8sbAKd6_02oleM0RGWwuZ70pL-uc/edit?usp=sharing)]
 
-### Motivation
+## Motivation
 
 * NLP on online livestream conversations needs further exploration 
 * Important to understand and analyze language used in online communication 
 * Twitch offers documentations of these live conversations 
 * Understand impact of social media and anonymity on communication
 
-### Data
+## Data
 
 * Chat logs of past stream videos (VODs) from Twitch streamer Joe Bartolozzi
 * Removed timestamps, usernames, bot commands, mentions, and links 
 * Roughly 37,000 lines of chat from 8 VODs
 * Labeled with one of five labels: joebartbusiness, joebartlongneck, joebartwebelieve, lul, catjam
 
-### Methods
+## Methods
 
 * Labeled chat rows used to fine-tune Bidirectional Encoder Representations from Transformers (BERT) base model 
 * To address overfitting we froze all embeddings layers and first five encoding layers
 * Trained model used for classification on new individual lines of chat data
 
-### Results
+## Results
 
 **Accuracy:** 0.84
 
@@ -39,7 +39,7 @@
 * lul: 0.74796
 * catjam: 0.85962
 
-### Conclusion
+## Conclusion
 * In-person and online communication differ: 
   * Online platforms afford anonymity 
   * Presence of different language patterns
@@ -51,6 +51,6 @@
 
 ### Poster
 
-You can find out poster below, or at this [link](readme/Emote_recommender_poster.pdf).
+You can find the poster for this project below, or at the following [link](readme/Emote_recommender_poster.pdf).
 
 ![poster](https://github.com/jjessicaf/CAIS-Proj-Emote/blob/main/readme/poster.jpg?raw=true)
