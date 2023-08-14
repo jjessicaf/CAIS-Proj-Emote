@@ -25,9 +25,13 @@
 ### Results
 
 **Accuracy:** 0.84
+
 **Precision:** 0.75
+
 **Recall:** 0.27
+
 **F1-score:** 0.37
+
 **AUROC:**
 * joebartbusiness: 0.73298
 * joebartlongneck: 0.71129
@@ -36,7 +40,6 @@
 * catjam: 0.85962
 
 ### Conclusion
-
 * In-person and online communication differ: 
   * Online platforms afford anonymity 
   * Presence of different language patterns
