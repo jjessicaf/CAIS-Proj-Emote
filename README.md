@@ -24,18 +24,19 @@
 
 ## Results
 
-Accuracy: 0.84 
-Precision: 0.75 
-Recall: 0.27 
-F1-score: 0.37 
-AUROC:
-* joebartbusiness: 0.73298
-* joebartlongneck: 0.71129
-* joebartwebelieve: 0.7687
-* lul: 0.74796
-* catjam: 0.85962
+* Accuracy: 0.84 
+* Precision: 0.75 
+* Recall: 0.27 
+* F1-score: 0.37 
+* AUROC:
+  * joebartbusiness: 0.73298
+  * joebartlongneck: 0.71129
+  * joebartwebelieve: 0.7687
+  * lul: 0.74796
+  * catjam: 0.85962
 
 ## Conclusion
+
 * In-person and online communication differ: 
   * Online platforms afford anonymity 
   * Presence of different language patterns
@@ -45,7 +46,7 @@ AUROC:
   * Scale up data volume: more Twitch communities and more diverse genres
   * Expanding the model beyond classification to reveal patterns in content and speech of various communities
 
-### Poster
+## Poster
 
 You can find the poster for this project below, or at the following [link](readme/Emote_recommender_poster.pdf).
 
